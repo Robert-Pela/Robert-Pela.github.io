@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add Font Awesome for Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">
+            <a href="index.html">Robert Pela</a> <!-- Make the logo clickable -->
+
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <a href="https://linkedin.com/in/robert-pela-496886a5" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Robert-Pela" target="_blank"><i class="fab fa-github"></i></a>
+            <a href=https://x.com/RobertKPela target="_blank"><i class="fab fa-twitter"></i></a>       
+         </div>
+        <!-- Hamburger Menu for Mobile -->
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- Overlay Menu for Mobile -->
+    <div id="overlay-menu">
+        <div class="close-btn">
+            <span>X</span>
+            <div class="underline"></div> <!-- Added underline div -->
+
+        </div>
+        <div class="overlay-content">
+            <ul class="overlay-nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+            <div class="overlay-social-icons">
+                <a href="https://linkedin.com/in/robert-pela-496886a5" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Robert-Pela" target="_blank"><i class="fab fa-github"></i></a>
+                <a href=https://x.com/RobertKPela target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN SECTION -->
+    <div class="content-wrapper">
+        <div class="text-section">
+            <!-- Add Hello Message Here -->
+            <div class="intro-text">
+            <p>Hello world my name is</p>
+            </div>
+            <h1 class="NAME">
+                <span class="name-letter">R</span>
+                <span class="name-letter">o</span>
+                <span class="name-letter">b</span>
+                <span class="name-letter">e</span>
+                <span class="name-letter">r</span>
+                <span class="name-letter">t</span>
+                <span class="name-letter"> </span>
+                <span class="name-letter">P</span>
+                <span class="name-letter">e</span>
+                <span class="name-letter">l</span>
+                <span class="name-letter">a</span>
+            </h1>
+            <h1 class="CHANGE">I am a <span id="changing-text"></span><span class="cursor">|</span></h1>
+            <p>Dedicated to continuous learning and delivering high-performing solutions, I bring passion and commitment to every project. With experience in coding, teaching, and agile methodologies, I stay focused on growth and excellence.</p>
+            <a href="about.html" class="about-btn">About Me</a>
+        </div>
+        <div class="image-section">
+            <img src="Robert_Pela_Avatar.png" alt="Avatar" class="profile-image">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
